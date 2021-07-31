@@ -1,10 +1,3 @@
-kind: Namespace
-apiVersion: v1
-metadata:
-  name: simplilearn-namespace
-  labels:
-    name: simplilearm-namespace
-
 ---
 kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
