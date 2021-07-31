@@ -2,7 +2,6 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: simplilearnproject
-  namespace: simplilearn-namespace
 spec:
   replicas: 2
   selector:
@@ -27,7 +26,6 @@ kind: Service
 apiVersion: v1
 metadata:
   name: simplilearnproject-svc
-  namespace: simplilearn-namespace
 spec:
   type: ClusterIP
   selector:
