@@ -3,7 +3,6 @@ kind: Role
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
  name: get-pods
- namespace: simplilearn-namespace
 rules:
  - apiGroups: ["*"]
    resources: ["pods"]
@@ -17,7 +16,6 @@ kind: RoleBinding
 apiVersion: rbac.authorization.k8s.io/v1
 metadata:
   name: simplilearn-get-pods
-  namespace: simplilearn-namespace
 subjects:
 - kind: User
   name: simplilearn
