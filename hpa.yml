@@ -2,6 +2,7 @@ kind: HorizontalPodAutoscaler
 apiVersion: autoscaling/v1
 metadata:
   name: simplilearnproject-hpa
+  namespace: simplilearn-namespace
 spec:
   targetCPUUtilizationPercentage: 40
   minReplicas: 2
