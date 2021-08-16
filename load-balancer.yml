@@ -2,7 +2,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: simplilearnproject
+  name: simplilearnproject-svc
   namespace: simplilearn-namespace
 spec:
   type: LoadBalancer
