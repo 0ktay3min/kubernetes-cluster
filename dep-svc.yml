@@ -29,7 +29,7 @@ metadata:
   name: simplilearnproject-svc
   namespace: simplilearn-namespace
 spec:
-  type: LoadBalancer
+  type: NodePort
   selector:
     app: slearn
   ports:
