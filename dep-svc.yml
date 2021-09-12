@@ -21,8 +21,6 @@ spec:
           resources:
             limits:
               cpu: 10m
-          command: ["printenv"]
-          args: ["HOSTNAME", "KUBERNETES_PORT"]
 
 ---
 kind: Service
